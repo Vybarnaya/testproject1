@@ -14,16 +14,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GameTest extends AbstractTest{
 
-//    static List<Door> doors;
-//
-//    @BeforeEach
-//    void initDoors () {
-//        doors = new ArrayList<>();
-//        doors.add(new Door(true));
-//        doors.add(new Door(false));
-//        doors.add(new Door(false));
-//    }
-
     @Test
     void checkNotRiskWin () {
         //given
