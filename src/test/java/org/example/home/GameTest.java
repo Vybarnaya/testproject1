@@ -4,16 +4,10 @@ import org.example.home.home.Door;
 import org.example.home.home.Game;
 import org.example.home.home.Player;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GameTest extends AbstractTest{
-
     @Test
     void checkNotRiskWin () {
         //given
